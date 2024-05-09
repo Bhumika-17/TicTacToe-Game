@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet"
+    type="text/css"
+    href="style.css">
+</head>
+<body>
+    <h1><center>Tic Tac Toe</center></h1>
+    <div id="winner-display"></div>
+
+    <board> 
+        <div class="container">
+        <div class="boxes" >
+            <button class="box"> </button>
+            <button class="box"> </button>
+            <button class="box"> </button>
+            <button class="box"> </button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div> 
+        </div>
+    </board>
+    <center><button class="Resetbtn">Reset Game</button>
+    <button class="HomeBtn">Back to Home</button></center>
+
+    <script src="script.js"></script>
+    <script>
+        // Retrieve player names from localStorage
+        const player1Name = localStorage.getItem('player1');
+        const player2Name = localStorage.getItem('player2');
+
+        // Log player names to the console
+        console.log("Player 1: " + player1Name);
+        console.log("Player 2: " + player2Name);
+    </script>
+</body>
+</html>

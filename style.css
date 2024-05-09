@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color: #443850;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xxx-large;    
+}
+
+.Welcome{
+    color: #443850;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 600%; 
+}
+
+.SelectMode{
+    color: #FF3864;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #CBF3F0;
+
+}
+
+.container{
+    height: 70vh;   
+    display: flex;
+    justify-content: center;
+}
+
+.boxes{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap : 1.5vmin;
+}
+
+.Modebtn{
+    height: 10vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    background-color: #DA4167;
+    color :aliceblue;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-right: 30px;
+}
+
+.box{
+    height: 18vmin;
+    width : 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: x-large;
+    background-color: #E8B9AB;
+    cursor : crosshair;
+    color: #39304A;
+    font-size: 300%;
+}
+
+.Resetbtn, .HomeBtn{
+    border: none;
+    padding: 2%;
+    font-size: x-large;
+    border-radius: 50%;
+    background-color: #443850;
+    color: burlywood;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.Resetbtn:hover, .HomeBtn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+form{
+    padding: 5%;;
+    margin : 5%;
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%; 
+    box-sizing: border-box; 
+}
+
+
+h3{
+    font-size: 200%;
+    font-family: monospace ;
+    font-weight: 1000;
+}
+
+.submitBtn{
+    background-color: #443850;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.inputBox {
+    width: 300px;
+    height: 30px;
+}
+
+#winner-display {
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #DA4167;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
